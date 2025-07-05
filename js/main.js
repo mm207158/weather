@@ -55,11 +55,9 @@ function display() {
             <h1 style="font-size: 50px;">${maxTemp}c</h1>
             <img src="${ic}" alt="">
             <p class="con">${condition}</p>
-<<<<<<< HEAD
-          ${i===0?`<i class="fa-solid fa-umbrella-beach" style="color: #B197FC;"></i>`:""}  
-=======
+
+         
           ${i===0?`<i class="fa-solid fa-umbrella-beach" style="color:rgb(168, 144, 239);"></i>`:""}  
->>>>>>> 969281e (first commit)
             <span>${i===0? humidity:""}${i===0?"%":""}</span>
           ${i === 0 ? `<i class="fa-solid fa-wind" style="color: #B197FC;"></i>` : ""}
 
