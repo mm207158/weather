@@ -1,0 +1,67 @@
+
+
+.my-nav{
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+  background-color: rgba(0, 0,0, 0.2);
+}
+.my-nav li{
+  padding: 0 10px;
+}
+.my-nav li a{
+  color: white;
+  font-size: 1.25rem;
+}
+.my-nav li a:hover{
+  border: #F564A9 1px solid;
+  border-radius: 20px;
+  color:#723553 ;
+  padding: 2px 0;
+
+}
+
+
+.my-nav img{
+  width: 80px;
+  height: 80px;
+}
+.home{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(../images/Shimmer\ Cloudy\ Sky.jfif);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.mySearch{
+  padding: 20px 10px;
+  border-radius: 25px;
+ 
+}
+
+.todaycard{
+  background-color: #e0a7c6;
+  color: #492336;
+  box-shadow: #f6e5ee 10px 10px 10px;
+}
+.my-card{
+  background-color: #f6e5ee;
+  color: #723553;
+  height: 350px;
+}
+.con{
+  color:#F564A9;
+  padding: 10px 0;
+}
+span{
+  font-size: .5rem
+  
+}
+i{
+padding:0 10px;
+}
