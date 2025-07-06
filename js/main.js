@@ -45,8 +45,8 @@ function display() {
    
     box += `
       <div class="col-md-4 toda text-centery" id="thisDay">
-        <div class="card todaycard p-4" style="width: 18rem;">
-          <div class="card-header d-flex justify-content-between w-100 ">
+        <div class="card ">
+          <div class="card-header d-flex justify-content-between align-items-center fs-3 ">
             <p>${dayName}</p>
             <p>${i===0? monthName:""}</p>
           </div>
