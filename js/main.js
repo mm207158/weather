@@ -51,7 +51,7 @@ function display() {
             <p>${i===0? monthName:""}</p>
           </div>
           <div class="card-body">
-            <p id="location">${i === 0 ? ci : ""}</p>
+            <p style="font-size: 30px color:#F564A9" id="location">${i === 0 ? ci : ""}</p>
             <h1 style="font-size: 50px;">${maxTemp}c</h1>
             <img src="${ic}" alt="">
             <p class="con">${condition}</p>
